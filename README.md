@@ -23,4 +23,4 @@ Configure paperless-ng to execute the script, e.g., by setting `PAPERLESS_POST_C
 
 If you want to use the logging of the script, either adjust the log file configured or create the directory `/var/log/paperless` and make it accessible to the paperless-ng user.
 
-Fine tune the code to your needs, e.g., by adjusting the relevant code types (CODE128 by default). The valid values depend on zbar.
+Fine tune the code to your needs, e.g., by adjusting the relevant code types (CODE128 by default). The valid values depend on zbar, e.g., see [this list](https://github.com/NaturalHistoryMuseum/pyzbar/blob/76d337d8f41a45aa24dc16e103dc2ea446e6da8a/pyzbar/wrapper.py#L46-L64).
